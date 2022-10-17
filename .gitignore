@@ -1,0 +1,4 @@
+myenv
+__*
+.vscode
+pages\__pycache__
