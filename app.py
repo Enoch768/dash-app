@@ -33,6 +33,7 @@ app = dash.Dash(__name__, use_pages=True,meta_tags=[
         'content':'width=device-width,initial-scale=1.0'
     }
 ],title='Stock and Crypto')
+server = app.server
 dropdown = dbc.DropdownMenu(
     [
         dbc.DropdownMenuItem(page['name'], href=page['path'])
